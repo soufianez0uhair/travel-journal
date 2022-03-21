@@ -21,3 +21,56 @@ body {
 .icon--globe {
   font-size: 35px;
 }
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 10px;
+  gap: 30px;
+}
+.card--container {
+  width: 750px;
+  display: flex;
+  gap: 20px;
+  color: #2B283A;
+}
+.card--img {
+  width: 180px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card--stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card--loc--infos {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.icon--location {
+  font-size: 20px;
+  color: #F55A5A;
+  margin-right: 5px;
+}
+.card--gmaps {
+  margin-left: 20px;
+  color: #918E9B;
+}
+.card--gmaps:hover {
+  text-decoration: none;
+}
+.card--stats > h1 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.card--date {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card--description {
+  line-height: 1.5rem;
+}
